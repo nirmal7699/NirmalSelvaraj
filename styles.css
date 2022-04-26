@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rokkitt&family=Stoke&family=Ultra&display=swap');
+
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Navbar */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.nav h1{
+    font-family: 'Ultra', serif;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    animation: transition 1.5s infinite;
+}
+
+.nav_right a{
+    margin: 0px 40px;
+    text-decoration: none;
+    color: initial;
+    font-family: 'Stoke', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #051eff;
+}
+
+@keyframes transition{
+    0% {opacity: 100%;}
+    25% {opacity: 75%;}
+    50% {opacity: 50%;}
+    75% {opacity: 25%;}
+    100% {opacity: 0%;}
+  
+}
+/* About Body contents */
+
+.body{
+    margin: 5% 4.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
+
+.body h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: #5A5A5A;
+    word-spacing: 2px;
+    padding-top: 0.5px;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.body_left{
+    width: 60%;
+}
+
+.body p{
+    font-family: 'Rokkitt', serif;
+    font-weight: normal ;
+    color: #494949;
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.body_right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dp{
+    height: 25rem;
+    width: 25rem;
+    margin: 0px 0px 0px 35px;
+}
+
+/* Bootom */
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.7%;
+}
+.dot{
+    background-color: #353535;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.dots{
+    background-color: #c4c4c4;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.dotss{
+    background-color: #c4c4c4;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+/* End */
+
+/* Portfolio */
+
+.portfolio_body{
+    margin: 0% 4.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_body h3{
+    font-size: 30px;
+}
+
+.portfolio_body p{
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 35px;
+    margin-top: 0.5%;
+}
+
+.portfolio_body_right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}    
+
+.resume{
+    height: 22rem;
+}
+
+.button{
+    width: 125px;
+    height:50px;
+    font-family: 'Stoke', serif;
+    font-weight:normal;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 7.5% 5%;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+    border: 2.5px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Contact page */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5px 5%;
+}
+
+.FLname{
+    margin: 2px 0%;
+}
+
+.mail{
+    margin: 3% 0%;
+}
+
+.msg{
+    margin: 3px 0%;
+}
+
+input{
+    border: none;
+    border-bottom: 2.5px solid black;
+    line-height: 2.5rem;
+    text-indent: 2.5rem;
+    width: 50rem;
+    font-family: 'Stoke', serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+label{
+    font-family: 'Stoke', serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.Contact_button{
+    width: 170px;
+    height:50px;
+    font-family: 'Stoke', serif;
+    font-weight:normal;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 4% 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conb{
+    display: flex;
+    justify-content: center;
+}
+
+.msg input{
+    width: 75rem;
+}
+
+.Contact_button:hover{
+    color: black;
+    background-color: white;
+    border: 2.5px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
